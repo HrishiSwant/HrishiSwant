@@ -1,104 +1,144 @@
-::: {align="center"}
-`<picture>`{=html}
-`<source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg">`{=html}
-`<source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">`{=html}
-`<img alt="HS://INFERNO v1.0 Banner" src="./assets/banner.svg" width="100%">`{=html}
-`</picture>`{=html}
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
+  <img src="./assets/banner.svg" alt="HS://INFERNO v1.0 Banner" width="100%">
+</picture>
 
 # HS://INFERNO v1.0
 
 ### Software Developer • AI • Cyber Security • Full Stack
-:::
 
-------------------------------------------------------------------------
+</div>
 
-## 👋 About Me
+---
 
-I'm **Hrishikesh Sawant**, a software developer focused on building
-secure, scalable and intelligent applications.
+# 👋 About Me
 
-🚧 **Currently Building:** **FROST** --- an AI-powered Cyber Threat
-Intelligence Platform.
+Hi, I'm **Hrishikesh Sawant**, a Software Developer passionate about building **secure, scalable, and intelligent applications**.
 
-------------------------------------------------------------------------
+🚧 **Currently Building:** **FROST** — An AI-powered Cyber Threat Intelligence Platform focused on modern cybersecurity and threat intelligence.
 
-## 🧊 Featured Project --- FROST
+---
 
-**Current Modules** - Dashboard - Malware Intelligence - Deepfake
-Detection
+# 🧊 Featured Project — FROST
 
-**Planned** - Email Intelligence - Domain Intelligence - IP
-Intelligence - URL Intelligence - File Intelligence - Social
-Intelligence
+### Current Modules
 
-------------------------------------------------------------------------
+- 📊 Dashboard
+- 🦠 Malware Intelligence
+- 🎭 Deepfake Detection
 
-## 🪪 Identity
+### Planned Modules
 
-```{=html}
+- 📧 Email Intelligence
+- 🌐 Domain Intelligence
+- 🌍 IP Intelligence
+- 🔗 URL Intelligence
+- 📁 File Intelligence
+- 👥 Social Intelligence
+
+---
+
+# 🪪 Identity
+
 <p align="center">
-```
-`<img src="./assets/lanyard.svg" width="260">`{=html}
-```{=html}
+  <img src="./assets/lanyard.svg" alt="HS Identity Card" width="260">
 </p>
-```
 
-------------------------------------------------------------------------
+---
 
-## ⚡ Tech Arsenal
+# ⚡ Tech Arsenal
 
-```{=html}
 <p align="center">
-```
-`<img src="./assets/langs.svg" width="90%">`{=html}
-```{=html}
+  <img src="./assets/langs.svg" alt="Technology Stack" width="90%">
 </p>
-```
 
-------------------------------------------------------------------------
+---
 
-## 📊 System Metrics
+# 📊 GitHub Metrics
 
-```{=html}
 <p align="center">
-```
-`<img src="./assets/stats.svg" width="90%">`{=html}
-```{=html}
+  <img src="./assets/stats.svg" alt="GitHub Statistics" width="90%">
 </p>
-```
 
-------------------------------------------------------------------------
+---
 
-## 🏆 Achievements
+# 🏆 Achievements
 
-```{=html}
 <p align="center">
-```
-`<img src="./assets/trophies.svg" width="90%">`{=html}
-```{=html}
+  <img src="./assets/trophies.svg" alt="GitHub Trophies" width="90%">
 </p>
-```
 
-------------------------------------------------------------------------
+---
 
-## 💻 Tech Stack
+# 💻 Tech Stack
 
-**Languages:** Java · Python · JavaScript · C · C++ · PHP
+### Languages
 
-**Frontend:** React · HTML · CSS · Tailwind · Vite
+- Java
+- Python
+- JavaScript
+- C
+- C++
+- PHP
 
-**Backend:** Node.js · Express.js
+### Frontend
 
-**Databases:** MongoDB · MySQL · Firebase · Supabase
+- React
+- HTML5
+- CSS3
+- Tailwind CSS
+- Vite
 
-**Cloud:** GitHub · Git · Vercel · Render · Railway
+### Backend
 
-**AI:** OpenAI · Gemini
+- Node.js
+- Express.js
 
-------------------------------------------------------------------------
+### Databases
 
-## 📫 Connect
+- MongoDB
+- MySQL
+- Firebase
+- Supabase
 
--   GitHub: https://github.com/HrishiSwant
+### Cloud & DevOps
 
-> HS://INFERNO v1.0 --- Powered by FROST
+- Git
+- GitHub
+- Vercel
+- Render
+- Railway
+
+### Artificial Intelligence
+
+- OpenAI
+- Google Gemini
+
+---
+
+# 📫 Connect
+
+<p align="center">
+
+<a href="https://github.com/HrishiSwant">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+<a href="mailto:hrishi.sawant@example.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+
+</p>
+
+---
+
+<div align="center">
+
+### *HS://INFERNO v1.0*
+
+**Powered by FROST**
+
+</div>
