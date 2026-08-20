@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    width="1280"
+    height="640"
+    viewBox="0 0 1280 640"
+    xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#101010"/>
+    </linearGradient>
+
+    <!-- Orange Glow -->
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6a00"/>
+      <stop offset="100%" stop-color="#ff2600"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid -->
+    <pattern
+        id="grid"
+        width="40"
+        height="40"
+        patternUnits="userSpaceOnUse">
+
+      <path
+          d="M40 0H0V40"
+          fill="none"
+          stroke="#1d1d1d"
+          stroke-width="1"/>
+    </pattern>
+
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- Grid -->
+  <rect width="1280" height="640" fill="url(#grid)" opacity="0.45"/>
+
+  <!-- Orange Glow -->
+  <circle
+      cx="1040"
+      cy="310"
+      r="220"
+      fill="#ff6a00"
+      opacity="0.08">
+
+      <animate
+          attributeName="r"
+          values="210;235;210"
+          dur="6s"
+          repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- Logo -->
+  <text
+      x="70"
+      y="70"
+      fill="#ff6a00"
+      font-size="28"
+      font-family="JetBrains Mono"
+      font-weight="700">
+
+      HS://INFERNO
+
+  </text>
+
+  <!-- Boot Command -->
+
+  <text
+      x="70"
+      y="120"
+      fill="#8a8a8a"
+      font-size="18"
+      font-family="JetBrains Mono">
+
+      &gt; boot_sequence.sh
+
+  </text>
+
+  <!-- Boot Log -->
+
+  <text
+      x="70"
+      y="165"
+      fill="#ffffff"
+      font-size="17"
+      font-family="JetBrains Mono">
+
+      █ Initializing Environment...
+
+  </text>
+
+  <text
+      x="70"
+      y="195"
+      fill="#ffffff"
+      font-size="17"
+      font-family="JetBrains Mono">
+
+      █ Loading GitHub...
+
+  </text>
+
+  <text
+      x="70"
+      y="225"
+      fill="#ffffff"
+      font-size="17"
+      font-family="JetBrains Mono">
+
+      █ Loading FROST...
+
+  </text>
+
+  <text
+      x="70"
+      y="255"
+      fill="#ffffff"
+      font-size="17"
+      font-family="JetBrains Mono">
+
+      █ Connecting AI Modules...
+
+  </text>
+
+  <text
+      x="70"
+      y="285"
+      fill="#6cff6c"
+      font-size="17"
+      font-family="JetBrains Mono">
+
+      █ ACCESS GRANTED
+
+  </text>
+
+  <!-- Divider -->
+
+  <line
+      x1="70"
+      y1="325"
+      x2="600"
+      y2="325"
+      stroke="#ff6a00"
+      stroke-width="2"/>
+
+  <!-- Name -->
+
+  <text
+      x="70"
+      y="385"
+      fill="url(#orange)"
+      filter="url(#glow)"
+      font-size="54"
+      font-family="Segoe UI"
+      font-weight="700">
+
+      Hrishikesh Sawant
+
+  </text>
+
+  <!-- Role -->
+
+  <text
+      x="70"
+      y="435"
+      fill="#ffffff"
+      font-size="28"
+      font-family="Segoe UI">
+
+      Software Developer
+
+  </text>
+
+  <!-- Mission -->
+
+  <text
+      x="70"
+      y="480"
+      fill="#bdbdbd"
+      font-size="22"
+      font-family="Segoe UI">
+
+      Designing secure systems.
+
+  </text>
+
+  <text
+      x="70"
+      y="510"
+      fill="#bdbdbd"
+      font-size="22"
+      font-family="Segoe UI">
+
+      Building scalable software.
+
+  </text>
+
+  <text
+      x="70"
+      y="540"
+      fill="#bdbdbd"
+      font-size="22"
+      font-family="Segoe UI">
+
+      Learning continuously.
+
+  </text>
+
+  <!-- Tech Chips -->
+
+  <g>
+
+    <rect x="70" y="575" rx="18" ry="18" width="75" height="34"
+          fill="#161616" stroke="#ff6a00"/>
+
+    <text x="90" y="597"
+          fill="#ffffff"
+          font-size="15"
+          font-family="Segoe UI">
+
+      JAVA
+
+    </text>
+
+    <rect x="160" y="575" rx="18" ry="18" width="95" height="34"
+          fill="#161616" stroke="#ff6a00"/>
+
+    <text x="180" y="597"
+          fill="#ffffff"
+          font-size="15"
+          font-family="Segoe UI">
+
+      PYTHON
+
+    </text>
+
+    <rect x="270" y="575" rx="18" ry="18" width="85" height="34"
+          fill="#161616" stroke="#ff6a00"/>
+
+    <text x="292" y="597"
+          fill="#ffffff"
+          font-size="15"
+          font-family="Segoe UI">
+
+      REACT
+
+    </text>
+
+    <rect x="370" y="575" rx="18" ry="18" width="78" height="34"
+          fill="#161616" stroke="#ff6a00"/>
+
+    <text x="392" y="597"
+          fill="#ffffff"
+          font-size="15"
+          font-family="Segoe UI">
+
+      AI
+
+    </text>
+
+  </g>
+
+  <!-- Avatar Placeholder -->
+
+  <rect
+      x="845"
+      y="90"
+      width="340"
+      height="460"
+      rx="25"
+      fill="#111111"
+      stroke="#ff6a00"
+      stroke-width="2"/>
+
+  <text
+      x="930"
+      y="330"
+      fill="#555555"
+      font-size="22"
+      font-family="JetBrains Mono">
+
+      CYBER AVATAR
+
+  </text>
+
+  <!-- Status -->
+
+  <rect
+      x="980"
+      y="565"
+      width="220"
+      height="45"
+      rx="10"
+      fill="#111111"
+      stroke="#ff6a00"/>
+
+  <circle cx="1005" cy="588" r="6" fill="#00ff6a">
+      <animate attributeName="opacity"
+               values="1;0.2;1"
+               dur="1s"
+               repeatCount="indefinite"/>
+  </circle>
+
+  <text
+      x="1022"
+      y="593"
+      fill="#ffffff"
+      font-size="17"
+      font-family="JetBrains Mono">
+
+      ONLINE • FROST
+
+  </text>
+
+</svg>
