@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#fafafa"/><stop offset="100%" stop-color="#ececec"/>
+</linearGradient>
+<linearGradient id="ac" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#ff8a00"/><stop offset="100%" stop-color="#ff3b00"/>
+</linearGradient>
+</defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<text x="70" y="70" font-family="monospace" font-size="30" fill="#ff6a00">HS://INFERNO v1.0</text>
+<text x="70" y="120" font-family="monospace" font-size="18" fill="#555">&gt; boot_sequence.sh</text>
+<text x="70" y="170" font-family="monospace" font-size="18" fill="#222">█ Initializing...</text>
+<text x="70" y="200" font-family="monospace" font-size="18" fill="#222">█ Loading GitHub...</text>
+<text x="70" y="230" font-family="monospace" font-size="18" fill="#222">█ Loading FROST...</text>
+<text x="70" y="260" font-family="monospace" font-size="18" fill="#118811">█ ACCESS GRANTED</text>
+<text x="70" y="380" font-size="58" font-family="sans-serif" fill="url(#ac)">Hrishikesh Sawant</text>
+<text x="70" y="430" font-size="28" font-family="sans-serif" fill="#333">Software Developer</text>
+<rect x="850" y="100" width="330" height="450" rx="20" fill="#ddd" stroke="#ff6a00" stroke-width="3"/>
+<text x="940" y="330" fill="#666" font-family="monospace" font-size="22">LIGHT AVATAR</text>
+</svg>

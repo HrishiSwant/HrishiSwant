@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="760" viewBox="0 0 420 760">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#111"/>
+ <stop offset="100%" stop-color="#050505"/>
+</linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#ff8a00"/>
+ <stop offset="100%" stop-color="#ff3b00"/>
+</linearGradient>
+<filter id="glow">
+ <feGaussianBlur stdDeviation="3" result="b"/>
+ <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+
+<!-- Swing -->
+<g transform-origin="210 0">
+<animateTransform attributeName="transform"
+attributeType="XML"
+type="rotate"
+values="-2 210 0;2 210 0;-2 210 0"
+dur="5s"
+repeatCount="indefinite"/>
+
+<!-- Strap -->
+<rect x="194" y="0" width="32" height="110" rx="14" fill="#2b2b2b"/>
+<line x1="210" y1="0" x2="210" y2="110" stroke="#ff6a00" stroke-width="2"/>
+
+<!-- Ring -->
+<circle cx="210" cy="128" r="18" fill="none" stroke="#aaa" stroke-width="6"/>
+
+<!-- Card -->
+<rect x="40" y="150" width="340" height="540" rx="26" fill="url(#bg)" stroke="url(#accent)" stroke-width="3"/>
+
+<!-- Header -->
+<text x="210" y="195" text-anchor="middle"
+font-family="monospace"
+font-size="22"
+fill="#ff7a00"
+font-weight="bold">
+HS://INFERNO v1.0
+</text>
+
+<text x="210" y="222"
+text-anchor="middle"
+font-family="sans-serif"
+font-size="13"
+fill="#999">
+DEVELOPER CONSOLE
+</text>
+
+<!-- Avatar -->
+<rect x="110" y="245" width="200" height="200" rx="18"
+fill="#181818" stroke="#ff6a00" stroke-width="2"/>
+
+<text x="210" y="350"
+text-anchor="middle"
+font-family="monospace"
+font-size="18"
+fill="#666">
+PASTE
+</text>
+
+<text x="210" y="372"
+text-anchor="middle"
+font-family="monospace"
+font-size="18"
+fill="#666">
+AVATAR
+</text>
+
+<!-- Scan -->
+<line x1="112" x2="308" y1="245" y2="245"
+stroke="#ff6a00"
+stroke-width="2"
+opacity=".8">
+<animate attributeName="y1" values="245;445;245" dur="3s" repeatCount="indefinite"/>
+<animate attributeName="y2" values="245;445;245" dur="3s" repeatCount="indefinite"/>
+</line>
+
+<!-- Info -->
+<text x="60" y="485" fill="#fff" font-size="24" font-family="sans-serif" font-weight="bold">Hrishikesh Sawant</text>
+<text x="60" y="515" fill="#cfcfcf" font-size="17">Software Developer</text>
+
+<line x1="60" x2="360" y1="535" y2="535" stroke="#333"/>
+
+<text x="60" y="565" fill="#888" font-size="14">CLEARANCE</text>
+<text x="240" y="565" fill="#fff" font-size="14">LEVEL 07</text>
+
+<text x="60" y="595" fill="#888" font-size="14">PROJECT</text>
+<text x="240" y="595" fill="#fff" font-size="14">FROST</text>
+
+<text x="60" y="625" fill="#888" font-size="14">STATUS</text>
+<circle cx="250" cy="620" r="5" fill="#00ff66">
+<animate attributeName="opacity" values="1;.2;1" dur="1s" repeatCount="indefinite"/>
+</circle>
+<text x="265" y="625" fill="#fff" font-size="14">ONLINE</text>
+
+<!-- Barcode -->
+<g transform="translate(60 645)">
+<rect width="260" height="24" fill="#fff"/>
+<g fill="#000">
+<rect x="4" width="2" height="24"/>
+<rect x="10" width="4" height="24"/>
+<rect x="20" width="2" height="24"/>
+<rect x="28" width="6" height="24"/>
+<rect x="40" width="3" height="24"/>
+<rect x="50" width="5" height="24"/>
+<rect x="62" width="2" height="24"/>
+<rect x="72" width="6" height="24"/>
+<rect x="86" width="3" height="24"/>
+<rect x="96" width="5" height="24"/>
+<rect x="110" width="2" height="24"/>
+<rect x="120" width="6" height="24"/>
+<rect x="136" width="3" height="24"/>
+<rect x="146" width="5" height="24"/>
+<rect x="160" width="2" height="24"/>
+<rect x="170" width="6" height="24"/>
+<rect x="186" width="3" height="24"/>
+<rect x="196" width="5" height="24"/>
+<rect x="210" width="2" height="24"/>
+<rect x="220" width="6" height="24"/>
+<rect x="236" width="3" height="24"/>
+<rect x="246" width="5" height="24"/>
+</g>
+</g>
+
+<text x="210" y="705" text-anchor="middle" fill="#ff7a00" filter="url(#glow)" font-size="18" font-family="monospace">
+ACCESS GRANTED
+<animate attributeName="opacity" values="1;.4;1" dur="1.2s" repeatCount="indefinite"/>
+</text>
+
+</g>
+</svg>

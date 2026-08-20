@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#090909"/>
+<stop offset="100%" stop-color="#171717"/>
+</linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#ff8a00"/>
+<stop offset="100%" stop-color="#ff3b00"/>
+</linearGradient>
+<filter id="glow">
+<feGaussianBlur stdDeviation="3" result="b"/>
+<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+
+<rect width="900" height="520" rx="24" fill="url(#bg)" stroke="url(#accent)" stroke-width="3"/>
+
+<text x="40" y="55" fill="#ff8a00" font-family="monospace" font-size="28">HS://INFERNO v1.0</text>
+<text x="40" y="88" fill="#aaa" font-family="monospace" font-size="18">ACHIEVEMENTS</text>
+
+<g font-family="sans-serif">
+
+<rect x="40" y="120" width="820" height="75" rx="14" fill="#111" stroke="#ff6a00"/>
+<text x="70" y="165" font-size="28">🏆</text>
+<text x="120" y="153" fill="#fff" font-size="20">FROST INITIATED</text>
+<text x="120" y="178" fill="#999" font-size="14">Project Foundation Complete</text>
+
+<rect x="40" y="210" width="820" height="75" rx="14" fill="#111" stroke="#ff6a00"/>
+<text x="70" y="255" font-size="28">⚡</text>
+<text x="120" y="243" fill="#fff" font-size="20">FULL STACK</text>
+<text x="120" y="268" fill="#999" font-size="14">Modern Web Development</text>
+
+<rect x="40" y="300" width="820" height="75" rx="14" fill="#111" stroke="#ff6a00"/>
+<text x="70" y="345" font-size="28">🤖</text>
+<text x="120" y="333" fill="#fff" font-size="20">AI ENGINEER</text>
+<text x="120" y="358" fill="#999" font-size="14">Building AI-Powered Apps</text>
+
+<rect x="40" y="390" width="820" height="75" rx="14" fill="#111" stroke="#ff6a00"/>
+<text x="70" y="435" font-size="28">🛡</text>
+<text x="120" y="423" fill="#fff" font-size="20">CYBER SECURITY</text>
+<text x="120" y="448" fill="#999" font-size="14">Threat Intelligence Focus</text>
+
+</g>
+
+<text x="40" y="490" fill="#ff8a00" filter="url(#glow)" font-family="monospace" font-size="18">
+SYSTEM STATUS : ACTIVE
+<animate attributeName="opacity" values="1;.4;1" dur="1.5s" repeatCount="indefinite"/>
+</text>
+
+<circle cx="760" cy="484" r="6" fill="#00ff66">
+<animate attributeName="opacity" values="1;.2;1" dur="1s" repeatCount="indefinite"/>
+</circle>
+
+<text x="775" y="489" fill="#fff" font-family="monospace" font-size="18">ONLINE</text>
+
+</svg>
