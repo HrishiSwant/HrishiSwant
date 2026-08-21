@@ -44,7 +44,7 @@
 
 ### 📊 GitHub Stats & Graphs
 
-<img src="./assets/stats.svg" alt="GitHub Stats" height="200"/>
+<img src="./assets/stats.svg" alt="GitHub Stats" height="500"/>
 <img src="./assets/langs.svg" alt="Top Languages" height="200"/>
 
 <br/><br/>
