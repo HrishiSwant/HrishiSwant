@@ -3,73 +3,142 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img src="./assets/banner.svg" alt="HS://INFERNO v1.0 Banner" width="100%">
+  <img src="./assets/banner.svg" alt="HS://INFERNO Banner" width="100%">
 </picture>
 
-# HS://INFERNO v1.0
+# HS://INFERNO
 
 ### Software Developer • AI • Cyber Security • Full Stack
 
+> **Building secure, scalable & intelligent software.**
+
 </div>
 
----
+<br/>
+
+<table align="center">
+<tr>
+
+<td width="34%" align="center" valign="top">
+
+<img src="./assets/lanyard.svg" width="300" alt="Identity Card"/>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=HrishiSwant&style=for-the-badge&color=orange&label=PROFILE+VIEWS"/>
+
+</td>
+
+<td width="66%" valign="top">
 
 # 👋 About Me
 
-Hi, I'm **Hrishikesh Sawant**, a Software Developer passionate about building **secure, scalable, and intelligent applications**.
+I'm **Hrishikesh Sawant**, a Software Developer passionate about building modern applications with a strong focus on:
 
-🚧 **Currently Building:** **FROST** — An AI-powered Cyber Threat Intelligence Platform focused on modern cybersecurity and threat intelligence.
+- 🔐 Cyber Security
+- 🤖 Artificial Intelligence
+- 🌐 Full Stack Development
+- ☁️ Cloud Deployment
 
 ---
 
-# 🧊 Featured Project — FROST
+## 🚧 Currently Building
+
+# FROST
+
+**AI-Powered Cyber Threat Intelligence Platform**
 
 ### Current Modules
 
-- 📊 Dashboard
-- 🦠 Malware Intelligence
-- 🎭 Deepfake Detection
+- Dashboard
+- Malware Intelligence
+- Deepfake Detection
 
-### Planned Modules
+### Upcoming Modules
 
-- 📧 Email Intelligence
-- 🌐 Domain Intelligence
-- 🌍 IP Intelligence
-- 🔗 URL Intelligence
-- 📁 File Intelligence
-- 👥 Social Intelligence
+- Email Intelligence
+- Domain Intelligence
+- IP Intelligence
+- URL Intelligence
+- File Intelligence
+- Social Intelligence
 
 ---
 
-# 🪪 Identity
+### 🎯 Current Focus
 
-<p align="center">
-  <img src="./assets/lanyard.svg" alt="HS Identity Card" width="260">
-</p>
+```text
+AI
+Cyber Threat Intelligence
+Secure Software Development
+React Ecosystem
+Backend Engineering
+```
+
+</td>
+
+</tr>
+</table>
+
+---
+
+# 🚀 Featured Projects
+
+| Project | Description | Status |
+|----------|-------------|--------|
+| **FROST** | AI-powered Cyber Threat Intelligence Platform | 🚧 Active |
+| **Spotify Clone** | Spotify Web API + Next.js | ✅ Completed |
+| **Animation Showcase** | React Animation Library Showcase | ✅ Completed |
+| **Invoice Generator** | Smart quotation & invoice system | 🔄 Ongoing |
 
 ---
 
 # ⚡ Tech Arsenal
 
-<p align="center">
-  <img src="./assets/langs.svg" alt="Technology Stack" width="90%">
-</p>
+<div align="center">
+
+<img src="./assets/langs.svg" width="95%" alt="Tech Stack"/>
+
+</div>
 
 ---
 
-# 📊 GitHub Metrics
+# 📊 GitHub Analytics
 
-<p align="center">
-  <img src="./assets/stats.svg" alt="GitHub Statistics" width="90%">
-</p>
+<div align="center">
+
+<img src="./assets/stats.svg" height="190"/>
+<img src="./assets/langs.svg" height="190"/>
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com?user=HrishiSwant&theme=dark&hide_border=true"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=HrishiSwant&theme=github-dark&hide_border=true&area=true" width="95%"/>
+
+</div>
 
 ---
 
 # 🏆 Achievements
 
-<p align="center">
-  <img src="./assets/trophies.svg" alt="GitHub Trophies" width="90%">
-</p>
+<div align="center">
+
+<img src="./assets/trophies.svg" width="95%"/>
+
+</div>
+
+---
+
+# 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/HrishiSwant/HrishiSwant/output/github-contribution-grid-snake-dark.svg"/>
+
+</div>
 
 ---
 
@@ -77,68 +146,83 @@ Hi, I'm **Hrishikesh Sawant**, a Software Developer passionate about building **
 
 ### Languages
 
-- Java
-- Python
-- JavaScript
-- C
-- C++
-- PHP
+`Java`
+`Python`
+`JavaScript`
+`C`
+`C++`
+`PHP`
 
 ### Frontend
 
-- React
-- HTML5
-- CSS3
-- Tailwind CSS
-- Vite
+`React`
+`Next.js`
+`HTML`
+`CSS`
+`Tailwind`
+`Vite`
 
 ### Backend
 
-- Node.js
-- Express.js
+`Node.js`
+`Express.js`
 
-### Databases
+### Database
 
-- MongoDB
-- MySQL
-- Firebase
-- Supabase
+`MongoDB`
+`MySQL`
+`Firebase`
+`Supabase`
 
-### Cloud & DevOps
+### Cloud
 
-- Git
-- GitHub
-- Vercel
-- Render
-- Railway
+`Git`
+`GitHub`
+`Vercel`
+`Railway`
+`Render`
 
-### Artificial Intelligence
+### AI
 
-- OpenAI
-- Google Gemini
+`OpenAI`
+`Gemini`
 
 ---
 
 # 📫 Connect
 
-<p align="center">
+<div align="center">
 
 <a href="https://github.com/HrishiSwant">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <a href="mailto:hrishi.sawant@example.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-</p>
+<!-- Add LinkedIn later -->
+
+</div>
 
 ---
 
 <div align="center">
 
-### *HS://INFERNO v1.0*
+```text
+──────────────────────────────────────────────
 
-**Powered by FROST**
+HS://INFERNO
+
+STATUS  : ONLINE
+
+PROJECT : FROST
+
+BUILD   : v2.0
+
+──────────────────────────────────────────────
+```
+
+⭐ *Always Learning. Always Building.*
 
 </div>
