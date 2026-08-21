@@ -25,7 +25,7 @@
 
 | 💻 Project | ⚙️ Tech | 🔖 Status |
 |:---|:---:|:---:|
-| [🧊 FROST](https://github.com/HrishiSwant) | `AI` `Cyber Intel` | 🔄 Ongoing |
+| [🧊 FROST](https://github.com/HrishiSwant/FROST.git) | `AI` `Cyber Intel` | 🔄 Ongoing |
 | [🎧 Spotify Clone](https://github.com/HrishiSwant) | `Next.js` `Spotify API` | 🔄 Ongoing |
 | [🎬 Animation Showcase](https://github.com/HrishiSwant) | `React` | 🔄 Ongoing |
 | [🧾 Invoice Generator](https://github.com/HrishiSwant) | `React` `Node.js` | 🔄 Ongoing |
