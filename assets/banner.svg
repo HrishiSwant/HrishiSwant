@@ -77,13 +77,13 @@ Software Developer
 </defs>
 
 <image
-    href="https://raw.githubusercontent.com/HrishiSwant/HrishiSwant/main/assets/Avatar.png"
     x="840"
     y="100"
     width="340"
     height="460"
     preserveAspectRatio="xMidYMid slice"
     clip-path="url(#avatarClip)"
+    xlink:href="https://raw.githubusercontent.com/HrishiSwant/HrishiSwant/main/assets/Avatar.png"  
 />
 
 <line x1="840" x2="1180" y1="100" y2="100" stroke="#ff6a00" stroke-width="2">
