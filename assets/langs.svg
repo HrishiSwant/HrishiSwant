@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#0a0a0a"/><stop offset="100%" stop-color="#131418"/>
+</linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#38bdf8"/><stop offset="100%" stop-color="#0ea5e9"/>
+</linearGradient>
+<pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+<path d="M30 0H0V30" fill="none" stroke="#1a1c22" stroke-width="1"/>
+</pattern>
+</defs>
+
+<rect width="900" height="900" rx="20" fill="url(#bg)" stroke="#26292f" stroke-width="1.5"/>
+<rect x="1" y="1" width="898" height="898" rx="19" fill="url(#grid)" opacity=".3"/>
+<rect width="900" height="900" rx="20" fill="none" stroke="url(#accent)" stroke-width="1" opacity=".4"/>
+
+<!-- Header -->
+<circle cx="52" cy="48" r="5" fill="#22c55e">
+<animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+<text x="40" y="90" fill="#f5f5f5" font-size="26" font-family="'Inter','Segoe UI',sans-serif" font-weight="700">Tech Arsenal</text>
+<text x="40" y="118" fill="#6b7280" font-size="14" font-family="'JetBrains Mono', monospace" letter-spacing="1">SKILL PROFICIENCY OVERVIEW</text>
+<rect x="40" y="134" width="820" height="1.5" fill="#26292f"/>
+
+<!-- Languages -->
+<text x="40" y="176" fill="#e5e7eb" font-size="19" font-family="'Inter','Segoe UI',sans-serif" font-weight="600">Languages</text>
+
+<text x="40" y="216" fill="#9ca3af" font-size="14" font-family="'Inter','Segoe UI',sans-serif">Java</text>
+<rect x="190" y="203" width="580" height="10" rx="5" fill="#1c1e22"/>
+<rect x="190" y="203" width="551" height="10" rx="5" fill="url(#accent)"/>
+<text x="790" y="213" fill="#e5e7eb" font-size="13" font-family="'JetBrains Mono', monospace" text-anchor="end">95%</text>
+
+<text x="40" y="252" fill="#9ca3af" font-size="14" font-family="'Inter','Segoe UI',sans-serif">Python</text>
+<rect x="190" y="239" width="580" height="10" rx="5" fill="#1c1e22"/>
+<rect x="190" y="239" width="522" height="10" rx="5" fill="url(#accent)"/>
+<text x="790" y="249" fill="#e5e7eb" font-size="13" font-family="'JetBrains Mono', monospace" text-anchor="end">90%</text>
+
+<text x="40" y="288" fill="#9ca3af" font-size="14" font-family="'Inter','Segoe UI',sans-serif">JavaScript</text>
+<rect x="190" y="275" width="580" height="10" rx="5" fill="#1c1e22"/>
+<rect x="190" y="275" width="510" height="10" rx="5" fill="url(#accent)"/>
+<text x="790" y="285" fill="#e5e7eb" font-size="13" font-family="'JetBrains Mono', monospace" text-anchor="end">88%</text>
+
+<text x="40" y="324" fill="#9ca3af" font-size="14" font-family="'Inter','Segoe UI',sans-serif">C++</text>
+<rect x="190" y="311" width="580" height="10" rx="5" fill="#1c1e22"/>
+<rect x="190" y="311" width="435" height="10" rx="5" fill="url(#accent)"/>
+<text x="790" y="321" fill="#e5e7eb" font-size="13" font-family="'JetBrains Mono', monospace" text-anchor="end">75%</text>
+
+<text x="40" y="360" fill="#9ca3af" font-size="14" font-family="'Inter','Segoe UI',sans-serif">C</text>
+<rect x="190" y="347" width="580" height="10" rx="5" fill="#1c1e22"/>
+<rect x="190" y="347" width="406" height="10" rx="5" fill="url(#accent)"/>
+<text x="790" y="357" fill="#e5e7eb" font-size="13" font-family="'JetBrains Mono', monospace" text-anchor="end">70%</text>
+
+<text x="40" y="396" fill="#9ca3af" font-size="14" font-family="'Inter','Segoe UI',sans-serif">PHP</text>
+<rect x="190" y="383" width="580" height="10" rx="5" fill="#1c1e22"/>
+<rect x="190" y="383" width="348" height="10" rx="5" fill="url(#accent)"/>
+<text x="790" y="393" fill="#e5e7eb" font-size="13" font-family="'JetBrains Mono', monospace" text-anchor="end">60%</text>
+
+<!-- Frameworks -->
+<text x="40" y="440" fill="#e5e7eb" font-size="19" font-family="'Inter','Segoe UI',sans-serif" font-weight="600">Frameworks</text>
+
+<text x="40" y="480" fill="#9ca3af" font-size="14" font-family="'Inter','Segoe UI',sans-serif">React</text>
+<rect x="190" y="467" width="580" height="10" rx="5" fill="#1c1e22"/>
+<rect x="190" y="467" width="522" height="10" rx="5" fill="url(#accent)"/>
+<text x="790" y="477" fill="#e5e7eb" font-size="13" font-family="'JetBrains Mono', monospace" text-anchor="end">90%</text>
+
+<text x="40" y="516" fill="#9ca3af" font-size="14" font-family="'Inter','Segoe UI',sans-serif">Node.js</text>
+<rect x="190" y="503" width="580" height="10" rx="5" fill="#1c1e22"/>
+<rect x="190" y="503" width="493" height="10" rx="5" fill="url(#accent)"/>
+<text x="790" y="513" fill="#e5e7eb" font-size="13" font-family="'JetBrains Mono', monospace" text-anchor="end">85%</text>
+
+<text x="40" y="552" fill="#9ca3af" font-size="14" font-family="'Inter','Segoe UI',sans-serif">Express</text>
+<rect x="190" y="539" width="580" height="10" rx="5" fill="#1c1e22"/>
+<rect x="190" y="539" width="476" height="10" rx="5" fill="url(#accent)"/>
+<text x="790" y="549" fill="#e5e7eb" font-size="13" font-family="'JetBrains Mono', monospace" text-anchor="end">82%</text>
+
+<text x="40" y="588" fill="#9ca3af" font-size="14" font-family="'Inter','Segoe UI',sans-serif">Tailwind</text>
+<rect x="190" y="575" width="580" height="10" rx="5" fill="#1c1e22"/>
+<rect x="190" y="575" width="510" height="10" rx="5" fill="url(#accent)"/>
+<text x="790" y="585" fill="#e5e7eb" font-size="13" font-family="'JetBrains Mono', monospace" text-anchor="end">88%</text>
+
+<!-- Databases -->
+<text x="40" y="632" fill="#e5e7eb" font-size="19" font-family="'Inter','Segoe UI',sans-serif" font-weight="600">Databases</text>
+
+<text x="40" y="672" fill="#9ca3af" font-size="14" font-family="'Inter','Segoe UI',sans-serif">MongoDB</text>
+<rect x="190" y="659" width="580" height="10" rx="5" fill="#1c1e22"/>
+<rect x="190" y="659" width="522" height="10" rx="5" fill="url(#accent)"/>
+<text x="790" y="669" fill="#e5e7eb" font-size="13" font-family="'JetBrains Mono', monospace" text-anchor="end">90%</text>
+
+<text x="40" y="708" fill="#9ca3af" font-size="14" font-family="'Inter','Segoe UI',sans-serif">MySQL</text>
+<rect x="190" y="695" width="580" height="10" rx="5" fill="#1c1e22"/>
+<rect x="190" y="695" width="476" height="10" rx="5" fill="url(#accent)"/>
+<text x="790" y="705" fill="#e5e7eb" font-size="13" font-family="'JetBrains Mono', monospace" text-anchor="end">82%</text>
+
+<!-- Tools -->
+<text x="40" y="752" fill="#e5e7eb" font-size="19" font-family="'Inter','Segoe UI',sans-serif" font-weight="600">Tools &amp; Cloud</text>
+
+<text x="40" y="792" fill="#9ca3af" font-size="14" font-family="'Inter','Segoe UI',sans-serif">Git / GitHub</text>
+<rect x="190" y="779" width="580" height="10" rx="5" fill="#1c1e22"/>
+<rect x="190" y="779" width="551" height="10" rx="5" fill="url(#accent)"/>
+<text x="790" y="789" fill="#e5e7eb" font-size="13" font-family="'JetBrains Mono', monospace" text-anchor="end">95%</text>
+
+<text x="40" y="828" fill="#9ca3af" font-size="14" font-family="'Inter','Segoe UI',sans-serif">Vercel / Railway / Render</text>
+<rect x="190" y="815" width="580" height="10" rx="5" fill="#1c1e22"/>
+<rect x="190" y="815" width="464" height="10" rx="5" fill="url(#accent)"/>
+<text x="790" y="825" fill="#e5e7eb" font-size="13" font-family="'JetBrains Mono', monospace" text-anchor="end">80%</text>
+
+<circle cx="800" cy="864" r="5" fill="#22c55e">
+<animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+<text x="815" y="869" fill="#9ca3af" font-family="'JetBrains Mono', monospace" font-size="13">SYSTEMS NOMINAL</text>
+
+</svg>
